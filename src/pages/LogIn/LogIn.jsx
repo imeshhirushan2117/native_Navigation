@@ -2,13 +2,13 @@ import * as React from 'react';
 import { View } from 'react-native';
 import { TextInput, Text, Button } from 'react-native-paper';
 
-export default function LogIn() {
+export default function LogIn({navigation}) {
     const [email, setEmail] = React.useState("");
     const [password, setPassword] = React.useState("");
 
 
 const login = () =>{
-    console.log("login");
+    navigation.navigate('Home')
 }
 
     return (
