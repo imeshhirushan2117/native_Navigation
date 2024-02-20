@@ -8,7 +8,7 @@ export default function LogIn({navigation}) {
 
 
 const login = () =>{
-    navigation.navigate('Home')
+    navigation.navigate('Drawer')
 }
 
     return (
